@@ -1,0 +1,65 @@
+.Cards{
+    display: flex;
+    gap: 10px;
+}
+.parentContainer{
+    width: 100%;
+    
+}
+.block_card{
+    display: flex;
+    flex: 1;
+    height: 7rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    padding: 1rem;
+}
+.block_card:hover{
+    box-shadow: none;
+}
+.radialBar{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 1rem;
+
+
+}
+.CircularProgressbar-text{
+   fill: white!important;
+}
+.CircularProgressbar{
+    width:4rem ! important ;
+    overflow: visible;
+}
+.CircularProgressbar-path{
+    stroke: white!important;
+    stroke-width: 12px !important;
+    filter:drop-shadow(2px 4px 6px white)
+}
+.CircularProgressbar-trail{
+    display: none;
+}
+.detail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.detail .price{
+    font-size: 25px;
+}
+.staticCard{
+    width: 300px;
+    margin-top: -180px;
+    border-radius: 10px;
+    height: 190px;
+    position: absolute;
+
+    background-color: aquamarine;
+}
